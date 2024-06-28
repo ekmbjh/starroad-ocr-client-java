@@ -1,0 +1,137 @@
+@import url('https://fonts.googleapis.com/css2?family=Do+Hyeon&family=Jua&display=swap');
+html,
+body {
+
+	background-color: white;
+	height: 100%;
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+* {
+	font-family: "Jua", sans-serif;
+}
+:root {
+  --navy-color: #407AFF;
+  --gray-color: #f2f2f2;
+	--dgray-color:#8391A1;
+  --mint-color: #6CFACD;
+}
+/* common */
+
+.navy {
+  color: #407AFF;
+}
+
+.gray {
+  color: #f2f2f2;
+}
+
+.mint {
+  color: #6CFACD;
+}
+
+.border-degree {
+  border-radius: 8px;
+}
+
+.shadow {
+  box-shadow: 0 0 20px #0000000d;
+}
+
+.textshadow {
+	text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+}
+
+
+
+.wrapper {
+	position: relative;
+	min-height: 100vh;
+	max-width: 480px;
+    margin: 0 auto;
+    width: auto;
+	box-shadow: 0 0 20px #0000000d;
+}
+
+/* header */
+
+/* 배경색은 구분용, 나중에 삭제할것 */
+.header {
+  display: flex;
+  justify-content: center;
+  	top: 0;
+	font-size: 30px;
+	position: fixed;
+	height: 48px;
+  text-align: center;
+	z-index: 1020;
+	width: 100%; /* header의 너비를 100%로 설정 */
+    max-width: 480px; /* 최대 너비 설정 */
+	background-color: white;
+	
+}
+
+.header img{
+  margin-right: 10px;
+  width: 40px;
+	height: 40px;
+}
+
+/* main */
+
+.contents {
+  position: relative;
+	margin: auto;
+	width: 400px;
+	min-height: 100%;
+	top: 60px;
+	height: auto;
+	padding: 0 20px 0px;
+	/* background-color: gray; */
+}
+
+.contents .backimg{
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  width: 40px;
+  height: 40px;
+}
+
+
+
+/* footer */
+.footer {
+	display: flex;
+	background-color: white;
+	width: 480px;
+	height: 48px;
+	justify-content: center;
+	position: fixed;
+	background-color: white;
+    bottom: 0;
+    z-index: 1020;
+}
+
+.footer .menu {
+	position: relative;
+    display: block;
+    flex: 1;
+    height: 48px;
+		align-content: center;
+		text-align: center;
+
+}
+
+.footer img {
+	width: 30px;
+	height: 30px;
+	/* display: block; */
+}
+
+
+

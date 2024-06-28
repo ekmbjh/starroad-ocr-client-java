@@ -1,0 +1,1124 @@
+@import '@/css/common.css'; /* 공통 CSS 파일을 가져옵니다. */
+
+:root {
+  --swiper-navigation-size: 44px;
+  --swiper-theme-color: #007aff;
+}
+
+.contents {
+	margin-top: 10px;
+}
+
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  border: 0;
+  padding: 0;
+  font-size: 100%;
+  vertical-align: baseline;
+}
+
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  word-break: break-word;
+  line-height: normal;
+}
+
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section,
+main {
+  display: block;
+}
+
+button {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  appearance: none;
+  border-radius: 0;
+  box-shadow: none;
+  cursor: pointer;
+  color: #000;
+  font-size: 14px;
+}
+
+.timeline-post-item-feed {
+  /* border-radius: 50px; */
+  border: 5px solid var(--navy-color);
+  margin-top: 30px;
+  border-bottom: 7px solid transparent;
+  border-image: linear-gradient(to left, var(--navy-color), #a4b3ff) 1;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.5);
+  
+}
+
+
+.timeline-post-item {
+  padding: 16px 20px 20px;
+}
+
+.timeline-header {
+  display: flex;
+  align-items: center;
+  min-height: 40px;
+  margin-bottom: 10px;
+}
+
+.timeline-recom-follow {
+    overflow: hidden;
+    padding: 20px;
+    margin-top: 10px;
+    border-radius: 10px;
+    border: 1px solid #e8e8e8;
+}
+
+.timeline-recom-follow .swiper {
+  overflow: visible;
+}
+
+.swiper-wrapper {
+  transition-timing-function: linear(0 0%, 1.16 100%);
+}
+
+.swiper-container-android .swiper-slide, .swiper-wrapper {
+  transform: translateZ(0);
+}
+
+.swiper-wrapper {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+  display: flex;
+  transition-property: transform;
+  box-sizing: content-box;
+}
+
+.v-scroll {
+  overflow-x: auto;
+  margin: 0 -30px -14px;
+  padding-bottom: 14px;
+}
+
+.v-scroll .v-scroll-inner {
+  padding: 0 30px;
+  display: inline-block;
+}
+
+.timeline-recom-follow .swiper .swiper-slide {
+  width: auto !important;
+}
+.swiper-slide {
+  flex-shrink: 0;
+  height: 100%;
+  position: relative;
+  transition-property: transform;
+}
+
+.v-scroll::-webkit-scrollbar {
+  display: none;
+}
+
+.timeline-recom-follow .__follow-list-item {
+  padding: 12px 20px;
+  background: #ffffff;
+  border: 1px solid #e8e8e8;
+  box-sizing: border-box;
+  border-radius: 4px;
+}
+
+.timeline-recom-follow .__follow-list-item .__user-info {
+  margin-bottom: 8px;
+}
+
+.timeline-recom-follow .__follow-list-item .__user-info .profile {
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.timeline-recom-follow .__follow-list-item .__user-info .profile .profile-pic {
+  width: 56px;
+  height: 56px;
+  margin: 0 auto 6px;
+}
+
+.timeline-recom-follow .__follow-list-item .__user-info .profile .profile-pic .img {
+  width: 56px;
+  height: 56px;
+}
+
+.profile-pic {
+  position: relative;
+}
+
+.profile {
+  display: flex;
+  align-items: center;
+  word-break: keep-all;
+}
+
+.profile .name {
+  display: flex;
+  align-items: center;
+  line-height: normal;
+  margin-right: 10px;
+  flex: 1;
+  font-weight: 700;
+}
+
+.username {
+  font-weight: 500;
+  font-size: 14px;
+  position: relative;
+  display: flex;
+  min-width: 0;
+}
+
+.timeline-recom-follow .__follow-list-item .__user-info .username .txt {
+  overflow: hidden;
+  display: block;
+  width: 70px;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  text-align: center;
+  font-size: 12px;
+}
+
+.username .txt {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 1;
+  -webkit-box-orient: vertical;
+  word-break: break-word;
+  min-width: 0;
+  line-height: normal;
+}
+
+.profile .profile-pic {
+  margin-right: 10px;
+}
+
+.profile .name {
+  display: flex;
+  align-items: center;
+  line-height: normal;
+  flex: 1;
+  font-weight: 700;
+}
+
+.timeline-header .userinfo {
+  margin-right: 8px;
+  font-size: 12px;
+  line-height: 19px;
+  color: #666;
+}
+
+.btn {
+  margin: 0;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  border: 0;
+  appearance: none;
+  text-decoration: none;
+  box-sizing: border-box;
+}
+
+.timeline-header .btn {
+  width: 4.25em;
+  min-width: 4.25em;
+  height: 32px;
+  margin-left: auto;
+  padding: 0;
+}
+
+.profile-pic .img {
+  width: 30px;
+  height: 30px;
+  background: 50% 50% no-repeat;
+  background-size: cover;
+  border-radius: 50%;
+  box-sizing: border-box;
+}
+
+.timeline-recom-follow .__follow-list-item .__user-info .profile {
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.profile {
+  display: flex;
+  align-items: center;
+  word-break: keep-all;
+}
+
+.timeline-recom-follow .__follow-list-item .btn {
+  width: 6em;
+  height: 32px;
+  margin: 0 auto;
+  padding: 0;
+  font-size: 12px;
+}
+
+.btn-rounded.btn-orange {
+  background:var(--navy-color);
+  border-radius: 10px;
+  color: #fff;
+  border-color: var(--navy-color);
+}
+
+.btn-rounded.btn-orange .label {
+  color: #fff;
+}
+
+.timeline-gallery .imgin img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 16px 16px;
+}
+
+.timeline-post-content .__post-meta {
+  display: flex;
+  margin-top: 16px;
+  margin-bottom: 10px;
+}
+
+.timeline-post-content .__post-meta .__rating {
+  display: flex;
+  align-items: center;
+  font-weight: 700;
+  font-size: 14px;
+}
+
+.timeline-post-content .__post-meta .post-date {
+  margin-left: auto;
+  font-size: 12px;
+  color: #666;
+}
+
+.timeline-post-content .__post-meta .__rating:before {
+  width: 16px;
+  min-width: 16px;
+  height: 16px;
+  margin-right: 4px;
+  background: url(../../img/review/star-yellow.svg) 0% 50% no-repeat;
+  background-size: contain;
+  content: "";
+}
+
+
+.timeline-post-content .restaurant-info {
+  overflow: hidden;
+  display: flex;
+  text-align: center;
+  align-items: center;
+  gap: 10px;
+  background: var(--gray-color);
+  border-radius: 20px;
+  border: 7px solid var(--mint-color);
+  isolation: isolate;
+  margin-top: 16px;
+  box-shadow: 0 5px 14px rgba(0, 0, 0, 0.4)
+  /* padding-right: 12px; */
+}
+
+.timeline-post-content .restaurant-info .thumb {
+  display: block;
+  width: 48px;
+  height: 48px;
+  min-width: 32px;
+  border: 1px solid #f1f2fa;
+  border-radius: 4px 0 0 4px;
+  object-fit: cover;
+}
+
+.timeline-post-content .restaurant-info .__info {
+  overflow: hidden;
+  flex: 1;
+  font-size: 30px;
+  /* margin-right: 10px; */
+  padding-top: 15px;
+  padding-bottom: 10px;
+}
+
+.timeline-post-content .restaurant-info .__info .__meta {
+  margin-top: 4px;
+  color: #666;
+}
+
+._10fm75hj {
+  align-items: center;
+}
+
+._10fm75hg {
+  justify-content: space-between;
+}
+
+._10fm75h6 {
+  display: flex;
+}
+
+.timeline-post-footer .__post-meta {
+  display: flex;
+  gap: 16px;
+  margin-top: 24px;
+}
+
+.timeline-post-footer .__post-meta span.__like:before,
+.timeline-post-footer .__post-meta a.__like:before {
+  background-image: url(../../img/review/heart-new.svg);
+}
+
+/* .timeline-post-footer .__post-meta span:before, */
+.timeline-post-footer .__post-meta a:before {
+  display: block;
+  width: 32px;
+  min-width: 32px;
+  height: 32px;
+  margin-right: 2px;
+  background: 50% 50% no-repeat;
+  content: "";
+}
+
+.timeline-post-footer .__post-meta span,
+.timeline-post-footer .__post-meta a {
+  display: flex;
+  align-items: center;
+  color: #666;
+}
+
+.la3t9m0 {
+  font-variant-numeric: tabular-nums;
+}
+
+.timeline-post-footer .__post-meta span.__comment:before,
+.timeline-post-footer .__post-meta a.__comment:before {
+  background-size: 24px;
+  background-image: url(../../img/review/comment-new.webp);
+}
+
+._1vfgwok1 {
+  background: url(../../img/review/btn-more-d.svg) 50% 50% no-repeat;
+  width: 20px;
+  height: 20px;
+}
+
+._1e99eu30 {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  border: 0;
+  z-index: -1;
+  overflow: hidden;
+  clip: rect(1px, 1px, 1px, 1px);
+  clip-path: inset(50%);
+}
+
+.tab-menu.sticky {
+  position: sticky;
+  top: 0;
+  z-index: 10;
+}
+
+.tab-menu ul {
+  display: flex;
+}
+
+ol, ul {
+  list-style: none;
+}
+
+.tab-menu ul li {
+  flex: 1;
+}
+
+.tab-menu {
+  background: #fff;
+}
+
+.back-button {
+  margin: auto;
+  display: block;
+  width: 10%;
+  height: 100%;
+  text-align: center;
+}
+
+.tab-menu ul li a {
+  padding: 16px 4px;
+  padding-top: 16px;
+  padding-right: 4px;
+  padding-bottom: 16px;
+  padding-left: 4px;
+  text-align: center;
+  font-size: 16px;
+  color: #666;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  font-weight: 500;
+}
+
+.tab-menu ul li a span {
+  position: relative;
+}
+
+.tab-menu ul li.active a:after {
+  content: "";
+  position: absolute;
+  bottom: -2px;
+  left: 0;
+  right: 0;
+  height: 2px;
+  background: #000;
+}
+
+.tab-menu ul li.active a {
+  color: #000;
+  font-weight: 700;
+}
+
+.feedback-icons {
+  margin-top: 8px;
+  margin-bottom: -6px;
+}
+
+.feedback-icons .feedback {
+  display: inline-block;
+  vertical-align: top;
+  margin: 0 4px 6px 0;
+  padding: 3px 6px;
+  border-radius: 4px;
+  background: #f1f2fa;
+  box-sizing: border-box;
+  font-size: 0.8rem;
+  color: #555558;
+  color: rgba(var(--gray30), 1);
+  line-height: 1.8rem;
+}
+
+.survey-item {
+  vertical-align: top;
+  margin-bottom: 10px;
+  margin-left: 20px;
+  margin-right: 20px;
+} 
+
+.survey-option-btn {
+  display: block;
+  position: relative;
+  padding: 0 11px;
+  border: 1px solid;
+  border-color: var(--dgray-color);
+  border-radius: 8px;
+  background: #fff;
+  box-sizing: border-box;
+  font-size: 0.8rem;
+  font-weight: 700;
+  color: #555558;
+  line-height: 34px;
+
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+  text-decoration-line: none;
+  text-decoration-thickness: initial;
+  text-decoration-style: initial;
+  text-decoration-color: initial;
+  -webkit-tap-highlight-color: rgba(0, 0, 0, .1);
+}
+
+.survey-title {
+  font-size: 1.4rem;
+  text-align: center;
+  vertical-align: top;
+  margin-top: 40px;
+  margin-bottom: 10px;
+  color: var(--navy-color);
+  font-weight: 600;
+}
+
+
+
+.text-review {
+  vertical-align: top;
+  margin-bottom: 10px;
+  margin-left: 20px;
+  margin-right: 20px;
+  width : 350px;
+  height: 200px;
+  border-radius: 8px;
+  
+}
+.survey{
+  position: relative;
+  margin-top: 20px;
+  padding-bottom: 60px;
+  border: 4px solid var(--navy-color);
+  border-radius: 20px;
+  box-shadow: 0 0 12px rgba(0, 0, 0, 0.4);
+}
+.counter {
+  position: absolute;
+  margin-left: 20px;
+  margin-right: 20px;
+  right: 0px;
+}
+
+.register {
+  margin-top: 10px;
+  width: 7em;
+  min-width: 4.25em;
+  height: 34px;
+  margin-left: auto;
+  padding: 0;
+  background: var(--navy-color);
+  color: #fff;
+  border-color: var(--navy-color);
+  border-radius: 10px;
+}
+
+.profile-info {
+  margin: 0 auto;
+  max-width: 480px;
+  box-sizing: border-box;
+  position: relative;
+  display: flex;
+  align-items: center;
+  height: 48px;
+  width: 100%;
+  background: #fff;
+  border-bottom: 1px solid #fff;
+}
+
+.header-left {
+  display: flex;
+  align-items: center;
+  height: 100%;
+}
+
+.header-left .btn-back {
+  background: url(../../img/back_arrow.svg) 50% 50% no-repeat;
+  width: 32px;
+  height: 32px;
+  display: block;
+  text-indent: -999em;
+  overflow: hidden;
+  margin-right: 6px;
+  flex: none;
+}
+
+.header-left button {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  -webkit-appearance: none;
+  appearance: none;
+  border-radius: 0;
+  box-shadow: none;
+  cursor: pointer;
+  background: transparent;
+  color: #000;
+  font-size: 14px;
+}
+
+.header-left .page-title {
+  font-size: 20px;
+  font-weight: 700;
+  margin-right: 2px;
+  display: flex;
+  align-items: center;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 1;
+  -webkit-box-orient: vertical;
+  word-break: break-word;
+}
+
+.mypage-profile {
+  display: flex;
+  margin-top: 10px;
+  margin-bottom: 15px;
+  align-items: flex-start;
+}
+
+.mypage-profile .profile-pic {
+  margin-right: 12px;
+  border-radius: 50%;
+  box-sizing: border-box;
+  position: relative;
+}
+
+.mypage-profile .profile-pic.__vip:after {
+  display: block;
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  width: 24px;
+  height: 24px;
+  border-radius: 50%;
+  content: "";
+}
+
+.mypage-profile .mypage-profile-meta {
+  position: relative;
+  flex: 1;
+  min-width: 0;
+}
+
+.mypage-profile .name {
+  display: flex;
+  font-size: 16px;
+  font-weight: 700;
+}
+
+.username .txt {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 1;
+  -webkit-box-orient: vertical;
+  word-break: break-word;
+  min-width: 0;
+  line-height: normal;
+}
+
+.mypage-profile .mypage-profile-meta .meta {
+  display: flex;
+  gap: 10px;
+  margin-top: 5px;
+}
+
+.mypage-profile .mypage-profile-meta .meta dl {
+  display: flex;
+  gap: 5px;
+}
+
+.mypage-profile .mypage-profile-meta .meta dl dt {
+  color: #666;
+  font-size: 12px;
+}
+
+.mypage-profile .mypage-profile-meta .meta dl dd {
+  font-weight: 700;
+  color: #000;
+  font-size: 14px;
+}
+
+.date-info-wrapper .visit-date-message {
+  font-size: 2.1rem;
+  font-weight: 500;
+  line-height: 2.7rem;
+  text-align: center;
+  
+}
+
+.date-info-wrapper .visit-date-message em {
+  font-weight: 800;
+  color: var(--navy-color);
+}
+
+address, cite, dfn, em, i {
+  font-style: normal;
+}
+
+
+
+
+
+
+
+
+
+
+input[type="time" i] {
+  align-items: center;
+  appearance: auto;
+  background-color: buttonface;
+  display: -webkit-inline-flex;
+  width: 10em;
+  border-width: 1px;
+  border-style: solid;
+  border-color: rgb(169, 169, 169);
+  border-image: initial;
+  overflow: hidden;
+}
+
+
+
+
+
+.date-info-wrapper .confirmation-message {
+  margin-top: 40px;
+  font-size: 1.4rem;
+  color: #287cff;
+  color: rgba(var(--place-color-myplace-blue), 1);
+  line-height: 1.7rem;
+  text-align: center;
+}
+
+.date-info-wrapper .location-info-section {
+  margin-top: 30px;
+  border: 1px solid rgba(0, 0, 0, .05);
+  border-radius: 10px;
+  background: #fff;
+  background: rgba(var(--bgElevatedSurface), 1);
+}
+
+.date-info-wrapper .map-image-container .map-image {
+  border-radius: 10px 10px 0 0;
+}
+
+.date-info-wrapper .check-info-container {
+  padding: 18px 19px 20px;
+}
+
+.date-info-wrapper .check-info-container .check-name-category {
+  line-height: 2.3rem;
+}
+
+.date-info-wrapper .check-info-container .check-name-category .place-name {
+  color: #222225;
+  color: rgba(var(--gray10), 1);
+  margin-right: 6px;
+  font-size: 1.8rem;
+  font-weight: 600;
+}
+
+.date-info-wrapper .check-info-container .check-name-category .place-category {
+  color: #939396;
+  color: rgba(var(--gray50), 1);
+  font-size: 1.4rem;
+  font-weight: 400;
+}
+
+.date-info-wrapper .check-info-container .address-line.detailed-address {
+  margin-top: 5px;
+}
+
+.date-info-wrapper .check-info-container .address-line {
+  margin-top: 6px;
+  font-size: 1.5rem;
+  color: #555558;
+  color: rgba(var(--gray30), 1);
+}
+
+.date-info-wrapper .check-info-container .address-line.detailed-address .address-label {
+  display: inline-block;
+  vertical-align: top;
+  height: 18px;
+  margin: 1px 6px 0 0;
+  padding: 0 4px;
+  border: 1px solid #e9e9ec;
+  border-color: rgba(var(--gray80), 1);
+  box-sizing: border-box;
+  font-size: 1.1rem;
+  font-weight: 500;
+  color: #939396;
+  color: rgba(var(--gray50), 1);
+  line-height: 1.5rem;
+}
+
+.date-info-wrapper .image-gallery {
+  display: flex;
+  margin-top: 18px;
+}
+
+.date-info-wrapper .image-gallery .gallery-item-container {
+  flex: 1 1;
+  height: 97px;
+}
+
+.date-info-wrapper .image-gallery .gallery-item-container:first-child .gallery-image {
+  border-top-left-radius: 6px;
+  border-bottom-left-radius: 6px;
+}
+
+.date-info-wrapper .image-gallery .gallery-item-container:last-child .gallery-image {
+  border-top-right-radius: 6px;
+  border-bottom-right-radius: 6px;
+}
+
+.image-container {
+  -o-object-fit: cover;
+  object-fit: cover;
+}
+
+.review_button {
+  position: fixed;
+  right: calc(50% - 240px);
+  top: calc(100% - 120px);
+  background-color: var(--navy-color);
+  border-radius: 20px;
+  display: flex;
+  color: #fff;
+  padding: 10px 20px;
+  margin: 10px;
+  border: none;
+  box-shadow: 2px 2px 3px #00000033;
+  display: flex;
+  justify-content: center;
+}
+
+
+
+.place_blind {
+  overflow: hidden;
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  padding: 0;
+  border: 0;
+  clip: rect(0, 0, 0, 0);
+}
+
+/* 부모 컨테이너 스타일 */
+.decision-buttons-container {
+  display: flex;
+  margin-top: 15px;
+  justify-content: center; /* 요소들을 가로축에서 중앙으로 정렬 */
+  gap: 20px; /* 버튼 사이의 간격 */
+}
+
+/* 모든 버튼에 공통으로 적용되는 기본 스타일 */
+.button-base {
+  padding: 10px 20px; /* 안쪽 여백 */
+  border: none; /* 테두리 없음 */
+  border-radius: 4px; /* 테두리 모서리 둥글게 */
+  cursor: pointer; /* 마우스 오버 시 커서 변경 */
+  font-size: 16px; /* 글꼴 크기 */
+  transition: background-color 0.3s; /* 배경색 변경시 애니메이션 효과 */
+}
+
+/* '이 장소가 아니에요' 버튼 스타일 */
+.button-secondary {
+  background-color: #f2f2f2; /* 배경색 */
+  color: #333; /* 글자색 */
+}
+
+/* '이 장소가 맞아요' 버튼 스타일 */
+.button-confirm {
+  background-color: var(--mint-color); /* 배경색 */
+  color: white; /* 글자색 */
+}
+
+/* 버튼 호버 효과 */
+.button-base:hover {
+  filter: brightness(92%); /* 버튼 호버 시 밝기 감소 */
+}
+
+
+.date-time-picker-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+  padding: 20px;
+  border: 3px solid #287cff;
+  border-radius: 8px;
+  box-shadow: 0 4px 14px rgba(0, 0, 0, 0.3);
+  max-width: 400px; /* 가로 최대 크기 설정 */
+  margin: auto; /* 수평 중앙 정렬 */
+}
+
+.date-time-container {
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  /* width: 100%; */
+}
+.date-time-container button {
+  position: absolute;
+  top: 14px;
+  right: 20px;
+  background-color: var(--navy-color);
+  color: white;
+}
+.input-field-style {
+  padding: 10px;
+  margin-bottom: 5px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  width: calc(100% - 20px); /* padding을 고려한 너비 설정 */
+}
+
+.input-label {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #f2f2f2;
+  border-radius: 4px;
+  padding: 10px;
+  border: 1px solid #ccc;
+}
+
+.input-label-inner {
+  /* margin-top: 20px; */
+  /* margin-bottom: 20px; */
+  font-size: 14px;
+  color: #333;
+}
+
+.date-time-display {
+  display: flex; /* Flexbox를 사용하여 항목을 정렬합니다 */
+  /* justify-content: center; 가로축 기준으로 중앙 정렬 */
+  width: 100%; /* 필요에 따라 조정 */
+}
+
+.date-time-display, .edit-button-text {
+  font-weight: 600;
+}
+
+.edit-button-text {
+  color: #287cff;
+  cursor: pointer;
+}
+
+/* 추가: 호버 효과 */
+.edit-button-text:hover {
+  text-decoration: underline;
+}
+
+
+
+.date-info-wrapper .date-time-picker-container .input-label.input-label-inner {
+  border-color: #f7f7f9;
+  background: #f7f7f9;
+}
+
+.date-info-wrapper .date-time-picker-container .input-label .date-time-display {
+  font-size: 1.2rem; /* 글씨 크기를 동일하게 조정 */
+  font-weight: normal; /* 글씨 두께를 표준으로 설정 */
+}
+
+.date-info-wrapper .date-time-picker-container {
+  display: flex; /* flex로 변경하여 요소들을 수평으로 정렬 */
+  flex-direction: column; /* 요소들이 수평으로 정렬되도록 설정 */
+  margin-top: 28px;
+  gap: 10px; /* 요소 사이의 간격을 10px로 설정 */
+}
+
+
+.date-info-wrapper .date-time-picker-container .input-label {
+  display: flex; /* label을 flex로 설정하여 내부 요소를 수평 정렬 */
+  align-items: center; /* 내부 요소를 중앙 정렬 */
+  width: auto; /* 너비를 자동으로 설정하여 내용에 맞게 조정 */
+  padding: 20px;
+  width: 360px;
+  border: 1px solid #287cff;
+  border-radius: 8px;
+  box-sizing: border-box;
+  font-size: 1rem; /* 글씨 크기를 동일하게 조정 */
+}
+
+.date-info-wrapper .date-time-picker-container .input-label.input-label-inner .edit-button-text {
+  font-size: 1rem; /* 글씨 크기를 동일하게 조정 */
+  align-items: center;
+}
+
+.date-info-wrapper .date-time-picker-container .date-time-container {
+  margin-right: 10px; /* 마지막 요소를 제외한 각 요소 사이에 10px 간격 */
+}
+
