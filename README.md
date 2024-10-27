@@ -13,10 +13,11 @@
 
 <details>
   <summary>상장 및 사진</summary>
- 
-![image](https://file.notion.so/f/f/11889268-5bef-4774-b0e6-05d3eeaa209d/0ff2ef72-98f0-4e13-9bd1-31ded504ef71/%EC%9A%B0%EC%88%98%ED%8C%80.png?id=d30e5d17-53a1-4414-ae22-1b795e19cfb8&table=block&spaceId=11889268-5bef-4774-b0e6-05d3eeaa209d&expirationTimestamp=1719878400000&signature=6w6M6kbYjQnvIcHVhiG6uoSRRB4M2ChY6alZezWPCDE&downloadName=%EC%9A%B0%EC%88%98%ED%8C%80.png)
 
-![image](https://file.notion.so/f/f/11889268-5bef-4774-b0e6-05d3eeaa209d/cab0c212-8525-4d26-8a15-9ae506e243f4/754c60d3-42f9-42a1-b74d-5d523edb3f80.png?id=0c84d979-04d6-4e22-bec1-ff138857d789&table=block&spaceId=11889268-5bef-4774-b0e6-05d3eeaa209d&expirationTimestamp=1719813600000&signature=MItTfO_bNBpqD4rvug4OlESVN9LJE_mUOxHkgm1cRXk&downloadName=%E1%84%89%E1%85%B5%E1%86%AB%E1%84%89%E1%85%A6%E1%84%80%E1%85%A8I%26C+%E1%84%8E%E1%85%AC%E1%84%8C%E1%85%A9%E1%86%BC%E1%84%91%E1%85%B3%E1%84%85%E1%85%A9%E1%84%8C%E1%85%A6%E1%86%A8%E1%84%90%E1%85%B3+%E1%84%8B%E1%85%AE%E1%84%89%E1%85%B3%E1%86%BC+%E1%84%89%E1%85%A1%E1%84%8C%E1%85%B5%E1%86%AB+2.jpeg.png)
+![image](https://file.notion.so/f/f/11889268-5bef-4774-b0e6-05d3eeaa209d/515705a9-a9ae-43aa-b63c-8a97c3ee9373/%E1%84%89%E1%85%B5%E1%86%AB%E1%84%89%E1%85%A6%E1%84%80%E1%85%A8IC_%E1%84%8B%E1%85%AE%E1%84%89%E1%85%AE%E1%84%90%E1%85%B5%E1%86%B7.jpeg?table=block&id=06e4fe0e-a39e-4081-b915-133e06e23e58&spaceId=11889268-5bef-4774-b0e6-05d3eeaa209d&expirationTimestamp=1730102400000&signature=qZK2MA0cF_1yeB-U6ln-XTFeLCjClSryFeGMNoLudZg&downloadName=%E1%84%89%E1%85%B5%E1%86%AB%E1%84%89%E1%85%A6%E1%84%80%E1%85%A8I%26C+%E1%84%8B%E1%85%AE%E1%84%89%E1%85%AE%E1%84%90%E1%85%B5%E1%86%B7.jpeg)
+
+![image](https://file.notion.so/f/f/11889268-5bef-4774-b0e6-05d3eeaa209d/cab0c212-8525-4d26-8a15-9ae506e243f4/754c60d3-42f9-42a1-b74d-5d523edb3f80.png?table=block&id=0c84d979-04d6-4e22-bec1-ff138857d789&spaceId=11889268-5bef-4774-b0e6-05d3eeaa209d&expirationTimestamp=1730102400000&signature=bul2Tia5WpfcB5ePAO6kBzreNSKdRgNe-bqjQ8ikaIM&downloadName=%E1%84%89%E1%85%B5%E1%86%AB%E1%84%89%E1%85%A6%E1%84%80%E1%85%A8I%26C+%E1%84%8E%E1%85%AC%E1%84%8C%E1%85%A9%E1%86%BC%E1%84%91%E1%85%B3%E1%84%85%E1%85%A9%E1%84%8C%E1%85%A6%E1%86%A8%E1%84%90%E1%85%B3+%E1%84%8B%E1%85%AE%E1%84%89%E1%85%B3%E1%86%BC+%E1%84%89%E1%85%A1%E1%84%8C%E1%85%B5%E1%86%AB+2.jpeg.png)
+
 </details>
 
 ---
@@ -36,30 +37,31 @@
 
 # 사용기술 
 
-![image](https://file.notion.so/f/f/11889268-5bef-4774-b0e6-05d3eeaa209d/5e89149b-68a7-4583-b9ae-7ae7a2550039/Untitled.png?id=310c9044-d4c8-4ff6-aa48-576b5253cebb&table=block&spaceId=11889268-5bef-4774-b0e6-05d3eeaa209d&expirationTimestamp=1719820800000&signature=KmII9ejOYDQHjl-8pC863zQPLLjtIyCfeyr9ywmOal0&downloadName=Untitled.png)
-
+![image](https://file.notion.so/f/f/11889268-5bef-4774-b0e6-05d3eeaa209d/5e89149b-68a7-4583-b9ae-7ae7a2550039/Untitled.png?table=block&id=310c9044-d4c8-4ff6-aa48-576b5253cebb&spaceId=11889268-5bef-4774-b0e6-05d3eeaa209d&expirationTimestamp=1730095200000&signature=g5M9H65oSZuZz40kV4RyprCc8yjMxgDqyGctm97rR3Y&downloadName=Untitled.png)
 ---
 
 # 자료조사 
 
-![image](https://file.notion.so/f/f/11889268-5bef-4774-b0e6-05d3eeaa209d/df2d2dba-6e98-49f1-879b-7abc03b55b55/Untitled.png?id=b5543dcc-7260-4ac3-ac48-aaca30158a3f&table=block&spaceId=11889268-5bef-4774-b0e6-05d3eeaa209d&expirationTimestamp=1719820800000&signature=zzzsoDrJ6W67dpAEZpoKqOXX7Fk6BDXUG7DzdY3QMtQ&downloadName=Untitled.png)
-![image](https://file.notion.so/f/f/11889268-5bef-4774-b0e6-05d3eeaa209d/7ef98afc-ca8d-4663-a4c3-0b901283c855/Untitled.png?id=b2485620-5544-4484-9e66-77a9887dcda1&table=block&spaceId=11889268-5bef-4774-b0e6-05d3eeaa209d&expirationTimestamp=1719820800000&signature=r4LdCN_1EiZDd2fflbMXLBfiJiXe6Xil5VosVa7DKnM&downloadName=Untitled.png)
-![image](https://file.notion.so/f/f/11889268-5bef-4774-b0e6-05d3eeaa209d/4e86eacb-b74c-4e0f-bd23-13325c16702f/Untitled.png?id=c4dba2b2-9f5d-4269-bfa9-541caf1476a3&table=block&spaceId=11889268-5bef-4774-b0e6-05d3eeaa209d&expirationTimestamp=1719820800000&signature=cI2t1Y1yWYXnZ9vFl4BI1H7uk3IJteOhbzwASh215J4&downloadName=Untitled.png)
-![image](https://file.notion.so/f/f/11889268-5bef-4774-b0e6-05d3eeaa209d/209555cc-e328-4620-9150-22310cea2ef1/2a362220-a471-4c69-9fad-0343ea6a708e.png?id=7645b6a2-96cb-49bf-9931-df8c20b76729&table=block&spaceId=11889268-5bef-4774-b0e6-05d3eeaa209d&expirationTimestamp=1719820800000&signature=QGQwahk0kkyWKLRhreiw1fZ4IZVxsirj5-F0QBDW690&downloadName=Untitled.png)
+![image](https://file.notion.so/f/f/11889268-5bef-4774-b0e6-05d3eeaa209d/df2d2dba-6e98-49f1-879b-7abc03b55b55/Untitled.png?table=block&id=b5543dcc-7260-4ac3-ac48-aaca30158a3f&spaceId=11889268-5bef-4774-b0e6-05d3eeaa209d&expirationTimestamp=1730102400000&signature=0SSfdTr--8jdUo4g154Fr4SCVAe8JQt9WVNkw6UCiLU&downloadName=Untitled.png)
+![image](https://file.notion.so/f/f/11889268-5bef-4774-b0e6-05d3eeaa209d/7ef98afc-ca8d-4663-a4c3-0b901283c855/Untitled.png?table=block&id=b2485620-5544-4484-9e66-77a9887dcda1&spaceId=11889268-5bef-4774-b0e6-05d3eeaa209d&expirationTimestamp=1730102400000&signature=MtmmAHNTXyd-BphnBMoHl1zwqdEdyCDz_pHw3vNpmrM&downloadName=Untitled.png)
+![image](https://file.notion.so/f/f/11889268-5bef-4774-b0e6-05d3eeaa209d/4e86eacb-b74c-4e0f-bd23-13325c16702f/Untitled.png?table=block&id=c4dba2b2-9f5d-4269-bfa9-541caf1476a3&spaceId=11889268-5bef-4774-b0e6-05d3eeaa209d&expirationTimestamp=1730102400000&signature=BNuutdWpq-j9Amdx0dgMP1jK9UuB0aAChBkeGyuu0VI&downloadName=Untitled.png)
+![image](https://file.notion.so/f/f/11889268-5bef-4774-b0e6-05d3eeaa209d/209555cc-e328-4620-9150-22310cea2ef1/2a362220-a471-4c69-9fad-0343ea6a708e.png?table=block&id=7645b6a2-96cb-49bf-9931-df8c20b76729&spaceId=11889268-5bef-4774-b0e6-05d3eeaa209d&expirationTimestamp=1730102400000&signature=wU54rqjtFcxPzeKbbehL4S-EV5aUNeOnmfasZ1FOsec&downloadName=Untitled.png)
+
 ---
 
 # 아키텍쳐
 
-![image](https://file.notion.so/f/f/11889268-5bef-4774-b0e6-05d3eeaa209d/7fc7f67e-7e0b-4312-9b17-183903caa62f/Untitled.png?id=532ddf8f-2c18-41cf-9166-0e2c081a8f78&table=block&spaceId=11889268-5bef-4774-b0e6-05d3eeaa209d&expirationTimestamp=1719820800000&signature=w1RJdbPmHiZ1-9Z8KoLYp3N0qA3v5wTo0tvSPu_Z5ac&downloadName=Untitled.png)
+![image](https://file.notion.so/f/f/11889268-5bef-4774-b0e6-05d3eeaa209d/7fc7f67e-7e0b-4312-9b17-183903caa62f/Untitled.png?table=block&id=532ddf8f-2c18-41cf-9166-0e2c081a8f78&spaceId=11889268-5bef-4774-b0e6-05d3eeaa209d&expirationTimestamp=1730102400000&signature=oKQK6uQHdvdKue1y7ag29Kc_QBSAIyZWIi6kvV0qWm8&downloadName=Untitled.png)
 ---
 
 # 와이어프레임
 
-![image](https://file.notion.so/f/f/11889268-5bef-4774-b0e6-05d3eeaa209d/aedb92b3-d179-4825-b22d-8362376d3a81/Untitled.png?id=81b944ad-57ee-4be6-aaf8-0f4bc685e431&table=block&spaceId=11889268-5bef-4774-b0e6-05d3eeaa209d&expirationTimestamp=1719820800000&signature=2l_qxARVOxwNeclfiZaqlNCKexTTHrG2BRCCciwJ-Kk&downloadName=Untitled.png)
+![image](https://file.notion.so/f/f/11889268-5bef-4774-b0e6-05d3eeaa209d/aedb92b3-d179-4825-b22d-8362376d3a81/Untitled.png?table=block&id=81b944ad-57ee-4be6-aaf8-0f4bc685e431&spaceId=11889268-5bef-4774-b0e6-05d3eeaa209d&expirationTimestamp=1730102400000&signature=cLHz0SfjxsqTMIF-SA8m82lKQ2Z1dZCFHxUBCMEd6_U&downloadName=Untitled.png)
 
-![image](https://file.notion.so/f/f/11889268-5bef-4774-b0e6-05d3eeaa209d/1e707de3-ede3-4be0-ac93-d9516fb46ac4/Untitled.png?id=8bda04ba-5177-4a74-8da8-e4a9071178e2&table=block&spaceId=11889268-5bef-4774-b0e6-05d3eeaa209d&expirationTimestamp=1719820800000&signature=WsQaTmrGvXH_UDSgTWLcLAn40tpwrsMfDtQXd103Dms&downloadName=Untitled.png)
+![image](https://file.notion.so/f/f/11889268-5bef-4774-b0e6-05d3eeaa209d/1e707de3-ede3-4be0-ac93-d9516fb46ac4/Untitled.png?table=block&id=8bda04ba-5177-4a74-8da8-e4a9071178e2&spaceId=11889268-5bef-4774-b0e6-05d3eeaa209d&expirationTimestamp=1730102400000&signature=leo0wswyzPkmTwiIQniJCjh1HUePyp11h6rqFCID6Vg&downloadName=Untitled.png)
 
-![image](https://file.notion.so/f/f/11889268-5bef-4774-b0e6-05d3eeaa209d/10e51c36-75ef-4c33-80cc-dd3f016a74fc/Untitled.png?id=b38703a6-0db9-4457-8cab-90aa9648e5a1&table=block&spaceId=11889268-5bef-4774-b0e6-05d3eeaa209d&expirationTimestamp=1719820800000&signature=zGS_MCmgPQquRhJjljLSerRWwCMPq8_zHlveFCxnyX0&downloadName=Untitled.png)
+![image](https://file.notion.so/f/f/11889268-5bef-4774-b0e6-05d3eeaa209d/10e51c36-75ef-4c33-80cc-dd3f016a74fc/Untitled.png?table=block&id=b38703a6-0db9-4457-8cab-90aa9648e5a1&spaceId=11889268-5bef-4774-b0e6-05d3eeaa209d&expirationTimestamp=1730102400000&signature=xEbgR5JtG7QUhvL6tPFSuI1LSz2ymau7gavophWArCc&downloadName=Untitled.png)
+
 
 # 발표PPT
 [PPT](https://docs.google.com/presentation/d/1n043DX_PU6WuYhIszynmjo1oUWaPgpEGCiidK9laMKk/edit?usp=sharing)
@@ -73,3 +75,9 @@
 # 회고
 - 요구사항 구체화 : 요구사항 명세를 구체적으로 작성하지 않아 개발단계에서 다시 회의를 하는 상황이 발생하였음.
 - 소통의 중요성 : 와이어 프레임을 작성하고 API 명세를 하였으나 명확히 개발 영역이 겹치는 부분에서 소통의 문제가 발생하여 일정이 일부 미뤄지는 일 발생.
+
+
+
+
+
+
